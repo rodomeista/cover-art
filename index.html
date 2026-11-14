@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cover Art for Sonos: support</title>
+<style>
+  :root { --bg: #0d1517; --ink: #eef3f2; --dim: #9fb1b0; --accent: #ff7a5c; --line: #22343a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 20px 80px; }
+  header { display: flex; align-items: center; gap: 20px; margin-bottom: 36px; }
+  header img { width: 120px; height: 72px; border-radius: 12px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+  h2 { font-size: 20px; margin: 44px 0 10px; }
+  .tagline { color: var(--dim); margin: 4px 0 0; }
+  .shot { width: 100%; border-radius: 12px; display: block; margin: 8px 0; }
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td:first-child { color: var(--dim); width: 38%; padding-right: 16px; }
+  a { color: var(--accent); }
+  p, li { color: #d6e0df; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--dim); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="images/icon.png" alt="">
+    <div>
+      <h1>Cover Art for Sonos</h1>
+      <p class="tagline">Now playing, on the big screen. An Apple TV app.</p>
+    </div>
+  </header>
+
+  <img class="shot" src="images/cover.jpg" alt="An album cover shown full screen over a soft gradient of its own colours">
+
+  <p>Cover Art shows the cover of whatever your Sonos speakers are playing on your TV, over a slow gradient drawn from the artwork's own colours. Leave it on while you listen. When one room goes quiet and another starts playing, it follows the music there.</p>
+
+  <h2>What you need</h2>
+  <ul>
+    <li>An Apple TV running tvOS 18 or later.</li>
+    <li>Sonos speakers on the same home network as the Apple TV.</li>
+  </ul>
+
+  <h2>Using the remote</h2>
+  <table>
+    <tr><td>Left / Right</td><td>Previous / next song</td></tr>
+    <tr><td>Click, or Play/Pause</td><td>Play or pause</td></tr>
+    <tr><td>Up</td><td>Choose a room, group every room, or ungroup</td></tr>
+    <tr><td>Back</td><td>Close the room list, or leave the app</td></tr>
+  </table>
+  <p>Nothing shows on screen until you press something; then a quiet row under the title shows what the press did.</p>
+
+  <h2>Troubleshooting</h2>
+  <p><strong>It keeps saying “Looking for Sonos speakers…”.</strong> Check that the Apple TV and the speakers are on the same network. Guest networks, and some mesh or business routers, keep devices apart; put the Apple TV on your main network. Press Select on that screen to see a demo meanwhile.</p>
+  <p><strong>There is no cover.</strong> Some sources, such as a few radio stations and line-in, send no artwork. The title and artist still show.</p>
+  <p><strong>The screen went to the screensaver.</strong> Cover Art keeps the Apple TV awake only while music is playing, so it can sleep once the music stops.</p>
+  <p><strong>Your soundbar is playing TV sound.</strong> That is not shown; the app waits for music.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, problems or ideas: <a href="https://github.com/rodomeista/cover-art/issues">open an issue on GitHub</a>.</p>
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <footer>Cover Art is independently developed and is not affiliated with, endorsed by or sponsored by Sonos, Inc. Sonos is a trademark of Sonos, Inc. Apple TV is a trademark of Apple Inc.</footer>
+</main>
+</body>
+</html>
